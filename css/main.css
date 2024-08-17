@@ -12,7 +12,7 @@
 :root {
     --bg-color: #080808;
     --second-bg-color: #1b0000;
-    --text-color: white;
+    --text-color: black;
     --main-color: #1c0e70;
 }
 
@@ -26,7 +26,7 @@ html {
     top: 0;
     left: 0;
     padding: 4rem 12% 4rem;
-    background: rgba(0, 0, 0, 0.3);
+    background: white;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -43,6 +43,7 @@ html {
 }
 .logo:hover{
     transform: scale(1.1);
+    color: var(--main-color);
 }
 .navbar a{
     font-size: 1.8rem;
