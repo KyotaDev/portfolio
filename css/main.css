@@ -10,23 +10,26 @@
 }
 
 :root {
-    --bg-color: #FFFFFF;
-    --second-bg-color: #e6e8ec;
-    --text-color: black;
-    --main-color: #1c0e70;
+    --bg-color: #080808;
+    --second-bg-color: #00001b;
+    --text-color: rgb(255, 255, 255);
+    --main-color: #2903fd;
 }
 
 html {
     font-size: 60%;
     overflow-x: hidden;
 }
-
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
 .header{
     position: fixed;
     top: 0;
     left: 0;
     padding: 4rem 12% 4rem;
-    background: white;
+    background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -159,7 +162,7 @@ span{
     gap:1.5rem;
 }
 .btn-group a:nth-of-type(2){
-    background-color: white;
+    background-color: var(--bg-color);
     color: var(--main-color);
     border: 2px solid var(--main-color);
     box-shadow: 0 0 25px transparent;
@@ -366,7 +369,7 @@ span{
     font-size: 8rem;
 }
 .projects{
-    background: blue center no-repeat;
+    background: --second-bg-color center no-repeat;
     background-size: cover;
 }
 .projects-box{
@@ -474,7 +477,7 @@ span{
 .footer .social a:hover{
     transform: scale(1.2)translateY(-10px);
     background-color: var(--main-color);
-    color: black;
+    color: white;
     box-shadow: 0 0 25px var(--main-color);
 }
 .footer ul{
