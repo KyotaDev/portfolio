@@ -29,9 +29,7 @@
                 I'm a <span></span>
             </h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, placeat possimus. 
-                Laborum dolore, recusandae ab porro quisquam accusamus dolorem atque quod. 
-                Dicta officiis nemo vitae ex quisquam quidem eveniet assumenda?
+                I'm a passionate junior developer with a love for learning and creating. Explore my journey as I grow and develop my skills in the world of web development. I'm excited to share my work with you and hope you enjoy your visit!
             </p>
             <div class="social-icons">
                 <a href="https://github.com/KyotaDev" target="_blank">
@@ -69,10 +67,7 @@
                 <span></span>
             </h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Ipsa, accusantium fugiat hic quae animi perspiciatis pariatur 
-                illum voluptates laudantium dolores officiis quis nostrum voluptas 
-                eligendi, tenetur sunt, voluptatum doloribus? Tempore.
+                I'm a passionate web developer with a strong enthusiasm for continuous learning and collaboration. I thrive in team environments and am always eager to expand my skill set. With experience in maintaining desktop applications and a deep love for web development, I focus on crafting efficient and impactful solutions. My goal is to contribute to innovative projects that make a difference.
             </p>
             <a href="#" class="btn">
                 Read more
@@ -158,28 +153,34 @@
     </section>
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="#">
+        <form action="https://formsubmit.co/0c78e2cc525241123ef3f98494ea5ada" method="POST">
             <div class="input-group">
                 <div class="input-box">
                     <input type="text"
                     placeholder="Full Name"
+                    name="name"
                     >
                     <input type="email"
                         placeholder="Email"
+                        name="email"
                     >
                 </div>
                 <div class="input-box">
                     <input type="number"
                     placeholder="Phone Name"
+                    name="phone"
                     >
                     <input type="text"
                         placeholder="Subject"
+                        name="subject"
                     >
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
                 <input type="submit" value="Send Message" class="btn">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_captcha" value="false">
             </div>
         </form>
     </section>
