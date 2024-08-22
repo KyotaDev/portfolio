@@ -334,7 +334,7 @@ span{
     align-items: center;
     justify-content: center;
     background-color: var(--main-color);
-    height: 600px;
+    height: 764px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -368,6 +368,67 @@ span{
 .skill-info i{
     font-size: 8rem;
 }
+.skill-info .skill-tools{
+    display: flex;
+    flex-direction: column;
+    
+}
+.skill-tools p{
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+.skill-tools .tools-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tool{
+    display: flex;
+    flex-direction: column;
+}
+.tool .tool-image img{
+    width: 5.5rem;
+    height: 5.5rem;
+}
+.tool .tool-name{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.skill-info .skill-tech{
+    display: flex;
+    flex-direction: column;
+    
+}
+.skill-tech p{
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+.skill-tech .techs-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tech{
+    display: flex;
+    flex-direction: column;
+}
+.tech .tech-image img{
+    width: 5.5rem;
+    height: 5.5rem;
+}
+.tech .tech-name{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
 .projects{
     background: --second-bg-color center no-repeat;
     background-size: cover;
