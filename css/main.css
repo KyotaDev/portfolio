@@ -334,7 +334,7 @@ span{
     align-items: center;
     justify-content: center;
     background-color: var(--main-color);
-    height: 764px;
+    height: 780px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -367,6 +367,19 @@ span{
 }
 .skill-info i{
     font-size: 8rem;
+}
+.skill-info .skill-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.skill-info .skill-list ul {
+    list-style: none;
+}
+.skill-info .skill-list ul li{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 1rem 0;
 }
 .skill-info .skill-tools{
     display: flex;
@@ -660,6 +673,11 @@ span{
     }
     .about img{
         width: 50vw;
+    }.skills h2{
+        margin-bottom: 3rem;
+    }
+    .skills-container{
+        grid-template-columns: repeat(1,1fr);
     }
     .skills h2{
         margin-bottom: 3rem;
@@ -672,5 +690,122 @@ span{
     }
     .projects-box img{
         min-width: 42rem;
+    }
+}
+@media(max-width: 600px){
+    .home {
+        margin: 3rem 4rem;
+        gap: 0.1rem;
+    }
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    .home-content h3 {
+        font-size: 2.2rem;
+    }
+    .home-img img {
+        width: 56vw;
+        margin: 1rem 0;
+    }
+    .about img {
+        width: 64vw;
+    }
+    .skills-container{
+        margin: 0 1rem;
+    }
+    .skill-box{
+        height: 750px;
+    }
+    .skill-box .skill-info {
+        padding: 2rem 2.5rem;
+    }
+    .skill-info h4{
+        font-size: 3.5rem;
+        margin: 1rem 0;
+        font-weight: 700;
+    }
+    .skill-info p{
+        font-size: 1.35rem;
+        font-weight: 600;
+        line-height: 1.7;
+    }
+    .skill-info i{
+        font-size: 7rem;
+    }
+    .about {
+        flex-direction: column-reverse;
+        padding: 3rem 9% 6rem;
+    }
+    .about img {
+        width: 70vw;
+    }
+    .about-content h2 {
+        text-align: center;
+        line-height: 1.5;
+    }
+    .about-content h3 {
+        font-size: 2.2rem;
+    }
+    .about-content p {
+        font-size: 1.8rem;
+        margin: 1.5rem 0 3rem;
+    }
+    .about .heading {
+        margin: 2rem 0;
+    }
+    .projects {
+        margin: 1rem 0;
+    }
+    .heading {
+        font-size: 6rem;
+        margin: 3rem 0;
+    }
+    .projects-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .projects-box img {
+        min-width: 36rem;
+    }
+    .project-card {
+        height: 500px;
+        max-width: 350px;
+        padding: 4rem 2rem;
+    }
+    .project-card h3 {
+        font-size: 2.8rem;
+    }
+    .project-card p {
+        font-size: 1.5rem;
+    }
+    .contact {
+        padding: 3rem 3%;
+    }
+    .contact form {
+        margin: 3rem auto;
+    }
+    .contact form .input-box input, .contact form textarea {
+        padding: 2rem;
+        font-size: 1.6rem;
+    }
+    .footer{
+        padding: 5rem 3%;
+    }
+    .footer ul li {
+        padding: 0 10px;
+    }
+    .footer ul li a {
+        font-size: 16px;
+    }
+    .footer .social a {
+        font-size: 20px;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+    }
+    .footer .social {
+        padding-bottom: 15px;
+    }
+    .footer .social a {
+        margin: 0 8px;
     }
 }
