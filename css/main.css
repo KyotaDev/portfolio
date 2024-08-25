@@ -16,6 +16,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Erbaum';
+    src: url('../assets/fonts/Erbaum-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
 :root {
     --bg-color: #080808;
     --second-bg-color: #0d1218;
@@ -121,7 +127,7 @@ span{
 }
 .home-content p{
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 1.8;
     max-width: 1000px;
 }
@@ -292,6 +298,7 @@ span{
 }
 .about-content p{
     font-size: 1.8rem;
+    font-weight: 300;
     margin: 2rem 0 3rem;
 }
 .about .heading{
@@ -369,7 +376,7 @@ span{
 }
 .skill-info p{
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 1.7;
 }
 .skill-info i{
@@ -380,12 +387,15 @@ span{
     flex-direction: column;
     margin-top: 3rem;
 }
+.skill-info .skill-list p{
+    font-weight: 600;
+}
 .skill-info .skill-list ul {
     list-style: none;
 }
 .skill-info .skill-list ul li{
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 300;
     margin: 1rem 0;
 }
 .skill-info .skill-tools{
@@ -396,6 +406,7 @@ span{
 .skill-tools p{
     margin-top: 2.5rem;
     margin-bottom: 3rem;
+    font-weight: 600;
 }
 .skill-tools .tools-container{
     display: grid;
@@ -427,6 +438,7 @@ span{
     margin-top: 2.5rem;
     margin-bottom: 3rem;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 .skill-tech .techs-container{
     display: grid;
@@ -494,6 +506,7 @@ span{
 }
 .project-card p{
     font-size: 1.6rem;
+    font-weight: 300;
 }
 .contact{
     background-color: var(--bg-color);
