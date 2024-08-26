@@ -253,26 +253,22 @@
         </h2>
         <div class="projects-box">
             <div class="project-card">
-                <img src="assets/images/example.webp" alt="project">
-                <h3>Project 1</h3>
+                <img src="assets/images/projects/portfolio.png" alt="project">
+                <h3>Portfolio</h3>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Numquam officia earum sequi amet autem, minima illo aliquam 
-                    quas consequuntur sapiente expedita quo incidunt cum officiis 
-                    vitae eveniet, ullam sit impedit?
+                    This portfolio is a showcase of my work, built with the fundamentals of HTML, CSS, and JavaScript. 
+                    It highlights both my current projects and those I plan to pursue in the future. 
+                    Here, I'll show my progress as developer.
                 </p>
                 <div class="btn">
                     See Project
                 </div>
             </div>
             <div class="project-card">
-                <img src="assets/images/example.webp" alt="project">
-                <h3>Project 2</h3>
+                <img src="assets/images/projects/dermalia.png" alt="project">
+                <h3>Dermalia E-commerce</h3>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Numquam officia earum sequi amet autem, minima illo aliquam 
-                    quas consequuntur sapiente expedita quo incidunt cum officiis 
-                    vitae eveniet, ullam sit impedit?
+                    Dermalia is an online store specializing in dermatological products. The site was built using WordPress, WooCommerce, and Elementor, with custom PHP snippets to enhance functionality.
                 </p>
                 <div class="btn">
                     See Project
@@ -295,7 +291,7 @@
     </section>
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="https://formsubmit.co/0c78e2cc525241123ef3f98494ea5ada" method="POST">
+        <form id="contactForm" action="https://formsubmit.co/0c78e2cc525241123ef3f98494ea5ada" method="POST">
             <div class="input-group">
                 <div class="input-box">
                     <input type="text"
@@ -309,7 +305,7 @@
                 </div>
                 <div class="input-box">
                     <input type="number"
-                    placeholder="Phone Name"
+                    placeholder="Phone Number"
                     name="phone"
                     >
                     <input type="text"
@@ -325,6 +321,20 @@
                 <input type="hidden" name="_captcha" value="false">
             </div>
         </form>
+
+        <!-- Modal de carga -->
+        <div id="loadingModal" class="modal">
+            <div class="modal-content">
+                <p>Sending your message...</p>
+            </div>
+        </div>
+
+        <!-- Mensaje de éxito -->
+        <div id="successMessage" class="modal">
+            <div class="modal-content">
+                <p>Your message has been sent successfully!</p>
+            </div>
+        </div>
     </section>
 
     <footer class="footer">
@@ -338,9 +348,6 @@
             <a href="https://www.instagram.com/kyotadev/">
                 <i class="bx bxl-instagram-alt"></i>
             </a>
-            <!-- <a href="#">
-                <i class="bx bxl-twitter"></i>
-            </a> -->
         </div>
         <ul class="list">
             <li>
@@ -364,5 +371,6 @@
         </p>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
