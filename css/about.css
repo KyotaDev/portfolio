@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Erbaum", sans-serif;
+}
+
+@font-face {
+    font-family: 'Erbaum';
+    src: url('../assets/fonts/Erbaum-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Erbaum';
+    src: url('../assets/fonts/Erbaum-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #0d1218;
+    --text-color: rgb(255, 255, 255);
+    --main-color: #2903fd;
+}
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 4rem;
+    position: fixed;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+header .back-arrow {
+    position: absolute;
+    left: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+header .logo {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    color: var(--main-color);
+}
+
+section{
+    min-height: 100vh;
+    padding: 16rem 12% 10rem;
+}
+
+.about h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+}
+.about p{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.timeline {
+    margin: 4rem 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.timeline-item .circle {
+    width: 12px;
+    height: 12px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.timeline-item h4 {
+    margin: 0 0 5px;
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.timeline-item h4 span {
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 10px;
+}
+
+.timeline-item h6 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.timeline-item p {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 1.6rem;
+}
+
+.technical-skills {
+    margin: 4rem 0;
+}
+
+.technical-skills .skills .skill {
+    margin-bottom: 3rem;
+}
+
+.technical-skills .skills .skill h4 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.technical-skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.technical-skills ul li {
+    margin: 0 10px 10px 0;
+    padding: 10px 20px;
+    background: var(--second-bg-color);
+    border-radius: 5px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.technical-skills ul li span {
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.technical-skills ul li:hover {
+    background: var(--main-color);
+}
+
+.technical-skills ul li:hover span {
+    color: var(--second-bg-color);
+}
+
+.technical-skills ul li:hover {
+    cursor: pointer;
+}
+
+.languages {
+    margin: 4rem 0;
+}
+
+.languages .language {
+    margin-bottom: 3rem;
+}
+
+.languages .language h4 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.languages ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.languages ul li {
+    margin: 0 10px 10px 0;
+    padding: 10px 20px;
+    background: var(--second-bg-color);
+    border-radius: 5px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.resume p {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    color: var(--text-color);
+    border-top: 1px solid var(--main-color);
+    padding-top: 20px;
+}
