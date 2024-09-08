@@ -819,6 +819,10 @@ span{
         width: 56vw;
         margin: 1rem 0;
     }
+    .btn{
+        padding: 1rem 2.5rem;
+        font-size: 1.4rem;
+    }
     .about img {
         width: 64vw;
     }
