@@ -56,7 +56,12 @@ header .back-arrow {
     color: white;
 }
 
-header .logo {
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header .logo a {
     margin: 0;
     font-size: 24px;
     text-align: center;
@@ -67,7 +72,7 @@ header .logo {
     transition: 0.3s ease;
 }
 
-.logo:hover{
+.logo a:hover{
     transform: scale(1.1);
     color: var(--main-color);
 }
