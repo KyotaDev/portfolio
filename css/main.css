@@ -69,6 +69,7 @@ body{
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
+
 .navbar a:hover, .navbar a.active{
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
@@ -78,6 +79,74 @@ body{
     color: var(--main-color);
     display: none;
 }
+
+/* Clases de lenguaje */
+
+.language-selector {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 6rem; /* Ajusta según sea necesario */
+}
+
+.selected-language {
+    display: flex;
+    align-items: center;
+}
+
+.selected-language img.flag {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+}
+
+.selected-language i {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    transition: transform 0.3s;
+}
+
+.language-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    z-index: 100;
+}
+
+.language-dropdown div {
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.language-dropdown div:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.language-dropdown img.flag {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+}
+
+/* Mostrar el dropdown al hacer clic */
+.language-selector.active .language-dropdown {
+    display: block;
+}
+
+/* Rotar la flechita hacia arriba cuando el dropdown esté activo */
+.language-selector.active .selected-language i {
+    transform: rotate(180deg);
+}
+
 section{
     min-height: 100vh;
     padding: 10rem 12% 10rem;
@@ -348,10 +417,10 @@ span{
     color: var(--text-color);
 }
 
-.timeline-item h4 span {
+.timeline-item span {
     font-size: 1.4rem;
     color: white;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .timeline-item h6 {
@@ -748,6 +817,9 @@ span{
         font-size: 2rem;
         margin: 3rem 0;
         color: white;
+    }
+    .language-selector {
+        margin-left: 0rem; /* Ajusta según sea necesario */
     }
     .home{
         flex-direction: column-reverse;

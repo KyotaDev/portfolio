@@ -1,0 +1,57 @@
+{
+    "header": {
+      "home": "Inicio",
+      "about": "Sobre Mí",
+      "skills": "Habilidades",
+      "projects": "Proyectos",
+      "contact": "Contacto"
+    },
+    "home":{
+        "title": "Hola, soy Homero",
+        "subtitle": "Soy un desarrollador",
+        "presentation": "Soy un desarrollador junior entusiasta con una gran pasión por aprender y crear. Te invito a explorar mi trayectoria mientras sigo creciendo y perfeccionando mis habilidades en el mundo del desarrollo web. Estoy emocionado de compartir mi trabajo contigo y espero que disfrutes tu visita.",
+        "download-button": "Descargar CV",
+        "contact-button": "Contáctame"
+    },
+    "about": {
+      "title-1": "Sobre Mí",
+      "title-2": "",
+      "description": "Soy un desarrollador web apasionado con un gran entusiasmo por el aprendizaje continuo y la colaboración. Me desarrollo en entornos de equipo y siempre estoy ansioso por ampliar mis habilidades. Con experiencia en el mantenimiento de aplicaciones de escritorio y un profundo amor por el desarrollo web, me concentro en crear soluciones eficientes e impactantes. Mi objetivo es contribuir a proyectos innovadores que marquen la diferencia.",
+      "experience-title-1": "Desarrollador Web Frontend ",
+      "experience-time-1": "Jul. 2021 - Jul. 2022",
+      "experience-description-1": "Desarrollé aplicaciones web frontend utilizando Vue.js y Nuxt.js, atendiendo las necesidades del grupo de restaurantes NGR.",
+      "experience-title-2": "Desarrollador Web CMS",
+      "experience-time-2": "Ago. 2022 - Dic. 2022",
+      "experience-description-2": "Construí una plataforma de comercio electrónico para Dermalia, una tienda de productos dermatológicos, utilizando WordPress y WooCommerce, con pasarelas de pago integradas.",
+      "experience-title-3": "Analista Desarrollador",
+      "experience-time-3": "Feb. 2023 - Actualidad",
+      "experience-description-3": "Proporciono soporte y desarrollo requerimientos para aplicaciones internas. Elaboro reportes utilizando SQL, ofrezco soporte a usuarios a través del servicio de asistencia, y brindo soporte básico para SAP Business One.",
+      "more-info": "Leer más"
+    },
+    "skills": {
+      "title": "Habilidades",
+      "skill-title-1": "Diseño UI",
+      "skill-description-1": "Tengo una base en diseño de interfaces para la maquetación y diseño de páginas web, utilizando herramientas como Figma, Balsamiq Mockups y conocimientos básicos de Photoshop. Me enfoco en crear interfaces funcionales y visualmente atractivas, adaptadas a las necesidades del usuario y los requisitos del proyecto.",
+      "skill-subtitle-1": "Mis habilidades en diseño UI incluye:",
+      "tools-subtitle-1": "Las herramientas que uso:",
+      "skill-title-2": "Desarrollo Frontend",
+      "skill-description-2": "Tengo experiencia en desarrollo frontend, creando interfaces interactivas y responsivas utilizando tecnologías web. Mi objetivo es construir experiencias de usuario fluidas y eficientes, aplicando las mejores prácticas en desarrollo web.",
+      "skill-subtitle-2": "Las tecnologías que uso:",
+      "frameworks-subtitle-2": "Los frameworks que uso:",
+      "tools-subtitle-2": "Las herramientas que uso:"
+    },
+    "projects": {
+        "title": "Proyectos",
+        "project-title-1": "Portafolio",
+        "project-description-1": "Este portafolio es una muestra de mi trabajo, construido con los fundamentos de HTML, CSS y JavaScript. Destaca tanto mis proyectos actuales como aquellos que planeo desarrollar en el futuro. Aquí mostraré mi progreso como desarrollador.",
+        "project-title-2": "Dermalia E-commerce",
+        "project-description-2": "Dermalia es una tienda en línea especializada en productos dermatológicos. El sitio fue construido utilizando WordPress, WooCommerce y Elementor, con snippets personalizados en PHP para mejorar la funcionalidad.",
+        "project-title-3": "Blackjack",
+        "project-description-3": "Esta es una implementación simple del clásico juego de cartas Blackjack, desarrollado con JavaScript. Incluye las mecánicas esenciales del juego, como repartir cartas, manejar apuestas y calcular puntajes, todo dentro de una interfaz limpia y fácil de usar.",
+        "button": "Ver proyecto"
+    },
+    "contact": {
+        "title": "Contáctame"
+    }
+  }
+  

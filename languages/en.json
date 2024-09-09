@@ -1,0 +1,57 @@
+{
+    "header": {
+      "home": "Home",
+      "about": "About Me",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "home":{
+        "title": "Hi, Homero here!",
+        "subtitle": "I'm a developer",
+        "presentation": "I'm a passionate junior developer with a love for learning and creating. Explore my journey as I grow and develop my skills in the world of web development. I'm excited to share my work with you and hope you enjoy your visit!",
+        "download-button": "Download CV",
+        "contact-button": "Contact"
+    },
+    "about": {
+      "title-1": "About Me",
+      "title-2": "Me",
+      "description": "I'm a passionate web developer with a strong enthusiasm for continuous learning and collaboration. I thrive in team environments and am always eager to expand my skill set. With experience in maintaining desktop applications and a deep love for web development, I focus on crafting efficient and impactful solutions. My goal is to contribute to innovative projects that make a difference.",
+      "experience-title-1": "Frontend Developer ",
+      "experience-time-1": "Jul. 2021 - Jul. 2022",
+      "experience-description-1": "Developed frontend web applications using Vue.js and Nuxt.js. Also maintained and enhanced the systems for the restaurant company NGR.",
+      "experience-title-2": "Web CMS Developer",
+      "experience-time-2": "Aug. 2022 - Dec. 2022",
+      "experience-description-2": "Built an e-commerce platform for Dermalia, a dermatology product store, using WordPress and WooCommerce, with integrated payment gateways.",
+      "experience-title-3": "Analyst Developer",
+      "experience-time-3": "Feb. 2023 - Present",
+      "experience-description-3": "Provide support and develop requirements for in-house applications. Develop reports using SQL, offer user support via help desk, and provide basic support for SAP Business One.",
+      "more-info": "Read more"
+    },
+    "skills": {
+      "title": "Skills",
+      "skill-title-1": "UI Design",
+      "skill-description-1": "I have a foundation in interface design for web page layout and design, using tools such as Figma, Balsamiq Mockups, and basic knowledge of Photoshop. My focus is on creating functional and visually appealing interfaces, tailored to user needs and project requirements.",
+      "skill-subtitle-1": "My UI Design skills include:",
+      "tools-subtitle-1": "The tools I use:",
+      "skill-title-2": "Frontend Development",
+      "skill-description-2": "I have experience in frontend development, creating interactive and responsive interfaces using web technologies. My goal is to build smooth and efficient user experiences by applying best practices in web development.",
+      "skill-subtitle-2": "The technologies I use:",
+      "frameworks-subtitle-2": "The frameworks I use:",
+      "tools-subtitle-2": "The frameworks I use:"
+    },
+    "projects": {
+        "title": "Projects",
+        "project-title-1": "Portfolio",
+        "project-description-1": "This portfolio is a showcase of my work, built with the fundamentals of HTML, CSS, and JavaScript. It highlights both my current projects and those I plan to pursue in the future. Here, I'll show my progress as developer.",
+        "project-title-2": "Dermalia E-commerce",
+        "project-description-2": "Dermalia is an online store specializing in dermatological products. The site was built using WordPress, WooCommerce, and Elementor, with custom PHP snippets to enhance functionality.",
+        "project-title-3": "Blackjack",
+        "project-description-3": "This is a simple implementation of the classic Blackjack card game, developed using JavaScript. It includes essential game mechanics like dealing cards, handling bets, and calculating scores, all within a clean and user-friendly interface.",
+        "button": "See project"
+    },
+    "contact": {
+        "title": "Contact Me"
+    }
+  }
+  
