@@ -8,7 +8,7 @@
     },
     "home":{
         "title": "Hola, soy Homero",
-        "subtitle": "Soy un desarrollador",
+        "subtitle": "Soy desarrollador",
         "presentation": "Soy un desarrollador junior entusiasta con una gran pasión por aprender y crear. Te invito a explorar mi trayectoria mientras sigo creciendo y perfeccionando mis habilidades en el mundo del desarrollo web. Estoy emocionado de compartir mi trabajo contigo y espero que disfrutes tu visita.",
         "download-button": "Descargar CV",
         "contact-button": "Contáctame"
@@ -52,6 +52,13 @@
     },
     "contact": {
         "title": "Contáctame"
+    },
+    "footer": {
+        "rights": "© Luis Homero | Desarrollador de software",
+        "skills": "Habilidades",
+        "about": "Sobre Mí",
+        "projects": "Proyectos",
+        "contact": "Contacto"
     }
   }
   

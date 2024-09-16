@@ -8,7 +8,7 @@
     },
     "home":{
         "title": "Hi, Homero here!",
-        "subtitle": "I'm a developer",
+        "subtitle": "I'm a software developer",
         "presentation": "I'm a passionate junior developer with a love for learning and creating. Explore my journey as I grow and develop my skills in the world of web development. I'm excited to share my work with you and hope you enjoy your visit!",
         "download-button": "Download CV",
         "contact-button": "Contact"
@@ -51,7 +51,15 @@
         "button": "See project"
     },
     "contact": {
-        "title": "Contact Me"
+        "title": "Contact Me",
+        "button": "Enviar mensaje"
+    },
+    "footer": {
+        "rights": "© Luis Homero | Software Developer",
+        "skills": "Skills",
+        "about": "About Me",
+        "projects": "Projects",
+        "contact": "Contact"
     }
   }
   
